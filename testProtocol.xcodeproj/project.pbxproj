@@ -13,6 +13,8 @@
 		4A4B712E2050D17D004B8A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B712C2050D17D004B8A15 /* Main.storyboard */; };
 		4A4B71302050D17D004B8A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B712F2050D17D004B8A15 /* Assets.xcassets */; };
 		4A4B71332050D17D004B8A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B71312050D17D004B8A15 /* LaunchScreen.storyboard */; };
+		4A4B713C2050D19F004B8A15 /* bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B713B2050D19F004B8A15 /* bViewController.m */; };
+		4A939895205229D300B62ABD /* delegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A939894205229D300B62ABD /* delegateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		4A4B712F2050D17D004B8A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4B71322050D17D004B8A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4B71342050D17D004B8A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4B713A2050D19F004B8A15 /* bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bViewController.h; sourceTree = "<group>"; };
+		4A4B713B2050D19F004B8A15 /* bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bViewController.m; sourceTree = "<group>"; };
+		4A939893205229D300B62ABD /* delegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateView.h; sourceTree = "<group>"; };
+		4A939894205229D300B62ABD /* delegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				4A4B71272050D17D004B8A15 /* AppDelegate.m */,
 				4A4B71292050D17D004B8A15 /* ViewController.h */,
 				4A4B712A2050D17D004B8A15 /* ViewController.m */,
+				4A4B713A2050D19F004B8A15 /* bViewController.h */,
+				4A4B713B2050D19F004B8A15 /* bViewController.m */,
+				4A939893205229D300B62ABD /* delegateView.h */,
+				4A939894205229D300B62ABD /* delegateView.m */,
 				4A4B712C2050D17D004B8A15 /* Main.storyboard */,
 				4A4B712F2050D17D004B8A15 /* Assets.xcassets */,
 				4A4B71312050D17D004B8A15 /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4B713C2050D19F004B8A15 /* bViewController.m in Sources */,
+				4A939895205229D300B62ABD /* delegateView.m in Sources */,
 				4A4B712B2050D17D004B8A15 /* ViewController.m in Sources */,
 				4A4B71282050D17D004B8A15 /* AppDelegate.m in Sources */,
 				4A4B71252050D17D004B8A15 /* main.m in Sources */,
@@ -310,6 +322,7 @@
 				4A4B71392050D17D004B8A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
