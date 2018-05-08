@@ -15,6 +15,7 @@
 		4A4B71332050D17D004B8A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B71312050D17D004B8A15 /* LaunchScreen.storyboard */; };
 		4A4B713C2050D19F004B8A15 /* bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B713B2050D19F004B8A15 /* bViewController.m */; };
 		4A939895205229D300B62ABD /* delegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A939894205229D300B62ABD /* delegateView.m */; };
+		4A973C472058FB49000BEDDF /* viewNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A973C462058FB49000BEDDF /* viewNew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		4A4B713B2050D19F004B8A15 /* bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bViewController.m; sourceTree = "<group>"; };
 		4A939893205229D300B62ABD /* delegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateView.h; sourceTree = "<group>"; };
 		4A939894205229D300B62ABD /* delegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateView.m; sourceTree = "<group>"; };
+		4A973C452058FB49000BEDDF /* viewNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewNew.h; sourceTree = "<group>"; };
+		4A973C462058FB49000BEDDF /* viewNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewNew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,18 +67,12 @@
 		4A4B71222050D17D004B8A15 /* testProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				4A4B71262050D17D004B8A15 /* AppDelegate.h */,
-				4A4B71272050D17D004B8A15 /* AppDelegate.m */,
-				4A4B71292050D17D004B8A15 /* ViewController.h */,
-				4A4B712A2050D17D004B8A15 /* ViewController.m */,
-				4A4B713A2050D19F004B8A15 /* bViewController.h */,
-				4A4B713B2050D19F004B8A15 /* bViewController.m */,
+				4A973C432058FB13000BEDDF /* New Group */,
+				4A973C442058FB29000BEDDF /* New Group */,
 				4A939893205229D300B62ABD /* delegateView.h */,
 				4A939894205229D300B62ABD /* delegateView.m */,
-				4A4B712C2050D17D004B8A15 /* Main.storyboard */,
-				4A4B712F2050D17D004B8A15 /* Assets.xcassets */,
-				4A4B71312050D17D004B8A15 /* LaunchScreen.storyboard */,
-				4A4B71342050D17D004B8A15 /* Info.plist */,
+				4A973C452058FB49000BEDDF /* viewNew.h */,
+				4A973C462058FB49000BEDDF /* viewNew.m */,
 				4A4B71232050D17D004B8A15 /* Supporting Files */,
 			);
 			path = testProtocol;
@@ -84,9 +81,33 @@
 		4A4B71232050D17D004B8A15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A4B712C2050D17D004B8A15 /* Main.storyboard */,
+				4A4B712F2050D17D004B8A15 /* Assets.xcassets */,
+				4A4B71312050D17D004B8A15 /* LaunchScreen.storyboard */,
+				4A4B71342050D17D004B8A15 /* Info.plist */,
 				4A4B71242050D17D004B8A15 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A973C432058FB13000BEDDF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4A4B71262050D17D004B8A15 /* AppDelegate.h */,
+				4A4B71272050D17D004B8A15 /* AppDelegate.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		4A973C442058FB29000BEDDF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4A4B71292050D17D004B8A15 /* ViewController.h */,
+				4A4B712A2050D17D004B8A15 /* ViewController.m */,
+				4A4B713A2050D19F004B8A15 /* bViewController.h */,
+				4A4B713B2050D19F004B8A15 /* bViewController.m */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4B713C2050D19F004B8A15 /* bViewController.m in Sources */,
+				4A973C472058FB49000BEDDF /* viewNew.m in Sources */,
 				4A939895205229D300B62ABD /* delegateView.m in Sources */,
 				4A4B712B2050D17D004B8A15 /* ViewController.m in Sources */,
 				4A4B71282050D17D004B8A15 /* AppDelegate.m in Sources */,
