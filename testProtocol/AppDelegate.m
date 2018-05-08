@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+#import "bViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UINavigationController * navib = [[UINavigationController alloc] initWithRootViewController:[bViewController new]];
+        UINavigationController * navia = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    UITabBarController *tabBar = [UITabBarController new];
+    tabBar.viewControllers = @[navib,navia];
+    _window.rootViewController = tabBar;
     return YES;
 }
 

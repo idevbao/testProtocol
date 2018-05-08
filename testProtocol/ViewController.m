@@ -7,23 +7,53 @@
 //
 
 #import "ViewController.h"
+#import "bViewController.h"
+#import "delegateView.h"
+#import "viewNew.h"
 
-@interface ViewController ()
+@interface ViewController ()<aProtocol,protocol_view_Add,delegates>
 
 @end
 
 @implementation ViewController
-
+bViewController * viewB;
+delegateView * addview;
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"ViewA");
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    viewB = [bViewController new];
+    viewB.delegate = self;
+    [viewB calldata];
+    
+
+    addview.delegate_Add = self;
+     addview = [[delegateView alloc]initWithScreen:self];
+    addview.backgroundColor = [UIColor orangeColor];    
+    [self.view addSubview:addview];
+    
+
+    
+    viewNew * viewnew = [[viewNew alloc] init];
+    viewnew.delegate = self;
+    viewnew.frame = CGRectMake(10, 200,10, 10);
+    viewnew.backgroundColor = [UIColor redColor];
+    [self.view addSubview:viewnew];
+    [viewnew callmethod];
+
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)dataFromController:(NSString *)data{
+    NSLog(@"%@ ??????viewA",data);
 }
 
-
+-(void)method:(NSString *)data{
+     NSLog(@"%@ ??????ViewNew",data);
+}
+-(void)tapGet_view_Content:(int)view{
+    NSLog(@"%d",view);
+    NSLog(@"sss");
+}
 @end
